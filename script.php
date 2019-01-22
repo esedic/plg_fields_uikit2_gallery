@@ -15,7 +15,7 @@ class plgFieldsGalleryInstallerScript
 	public function install($parent)
 	{
 
-		JFactory::getDBO();
+		JFactory::getDbo();
 	
 		// enable extension if not enabled
 		$query = $db->getQuery(true)
